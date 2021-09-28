@@ -1,0 +1,44 @@
+
+body{
+background-image: url(Image/images.jpg);
+background-size: cover;
+}
+
+.register-page{
+background: rgba(200,200,200,0.1);
+width: 650px;
+margin: 40px auto;
+padding: 50px 50px;
+border: 1px solid #2ecc71;
+border-radius: 50px;
+}
+
+.register-page input{
+width: 100%;
+padding: 10px;
+font-family: tahoma;
+font-size: 18px;
+border: 1px solid #2ecc71;
+border-radius: 5px;
+background: transparent;
+color: #bdc3c7;
+outline: none;
+}
+
+.register-page label{
+font-family: tahoma;
+font-size: 20px;
+padding: 10px 0;
+display: block;
+cursor: pointer;
+color: #ecf0f1;
+}
+
+.register-page input[type=submit]{
+cursor: pointer;
+padding-top: 10px;
+width: 130px;
+color: #ecf0f1;
+margin-top: 10px;
+outline: none;
+}
